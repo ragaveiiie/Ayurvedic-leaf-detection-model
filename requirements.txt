@@ -1,4 +1,6 @@
 tensorflow==2.21.0
 flask
-pillow
 numpy
+Pillow
+huggingface_hub
+gunicorn
