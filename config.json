@@ -1,0 +1,7 @@
+{
+ "img_size": 224,
+ "sim_threshold": 0.6168028712272644,
+ "conf_threshold": 0.4507104754447937,
+ "test_accuracy_percent": 93.19,
+ "num_classes": 80
+}

@@ -1,0 +1,642 @@
+{
+ "Aloevera": {
+  "botanical": "Aloe barbadensis miller",
+  "sanskrit": "Kumari / Ghritakumari",
+  "properties": "Bitter, sweet; cooling, heavy; balances Pitta",
+  "uses": "Burns, skin irritation, constipation, digestion, hair and scalp care",
+  "how": "Fresh leaf gel on burns, skin and scalp; gel juice for digestion; used in Kumaryasava",
+  "caution": "The yellow latex is a strong laxative; avoid in pregnancy."
+ },
+ "Amla": {
+  "botanical": "Phyllanthus emblica",
+  "sanskrit": "Amalaki",
+  "properties": "Sour with most tastes (not salty); cooling; balances all three doshas; a Rasayana (rejuvenator)",
+  "uses": "Immunity, digestion, eye and hair health; rich in vitamin C",
+  "how": "Fruit eaten fresh, dried or as churna; key ingredient of Chyawanprash and Triphala",
+  "caution": "May increase acidity in some people; check with a doctor if on diabetes medicine."
+ },
+ "Amruthaballi": {
+  "botanical": "Tinospora cordifolia (Giloy)",
+  "sanskrit": "Guduchi / Amrita",
+  "properties": "Bitter, astringent; heating; balances all three doshas, mainly Pitta",
+  "uses": "Chronic fever, immunity, diabetes support, joint pain, liver support",
+  "how": "Stem juice or decoction (Guduchi kashayam); Guduchi satva; Amritarishta",
+  "caution": "Avoid in autoimmune disease and pregnancy; may lower blood sugar."
+ },
+ "Arali": {
+  "botanical": "Ficus religiosa (Peepal)",
+  "sanskrit": "Ashvattha",
+  "properties": "Astringent, sweet; cooling; balances Kapha and Pitta",
+  "uses": "Skin problems, diarrhea, wound healing, asthma and diabetes (traditional)",
+  "how": "Bark is part of Panchavalkala decoction for washing wounds; leaf and bark decoctions",
+  "caution": "May lower blood sugar. Traditional use."
+ },
+ "Astma_weed": {
+  "botanical": "Euphorbia hirta",
+  "sanskrit": "Dugdhika / Nagarjuni",
+  "properties": "Bitter, astringent; cooling",
+  "uses": "Asthma, cough, bronchitis, dysentery, wound healing",
+  "how": "Whole-plant decoction or juice in folk medicine for cough and bowel complaints",
+  "caution": "The latex irritates skin and eyes; use under guidance; avoid in pregnancy."
+ },
+ "Badipala": {
+  "botanical": "Not identified in the dataset",
+  "sanskrit": "-",
+  "properties": "-",
+  "uses": "Information is not shown because the dataset gives no botanical name for this label",
+  "how": "-",
+  "caution": "Identify the species with a botanist before any use."
+ },
+ "Balloon_Vine": {
+  "botanical": "Cardiospermum halicacabum",
+  "sanskrit": "Karnasphota",
+  "properties": "Pungent, bitter; heating; balances Vata",
+  "uses": "Joint pain, arthritis, stiffness, earache, skin conditions",
+  "how": "Leaf paste or medicated oil on painful joints; leaves in dosa and soup (Mudakathan) in South India",
+  "caution": "Mostly external use; avoid in pregnancy."
+ },
+ "Bamboo": {
+  "botanical": "Bambusoideae",
+  "sanskrit": "Vamsha",
+  "properties": "Sweet, astringent; cooling",
+  "uses": "Cough, weakness, fever; bamboo manna is valued for lung health",
+  "how": "Vamsha lochana (bamboo manna) in Sitopaladi and Talisadi churna; leaf decoction in folk use",
+  "caution": "Limited modern evidence."
+ },
+ "Beans": {
+  "botanical": "Phaseolus vulgaris",
+  "sanskrit": "Not classical (Shimbi group)",
+  "properties": "Sweet; heavy",
+  "uses": "Nutrition (protein, fibre); pod decoction in folk use for urinary and blood sugar complaints",
+  "how": "Pods and seeds cooked in the daily diet",
+  "caution": "Raw beans are toxic; cook well."
+ },
+ "Betel": {
+  "botanical": "Piper betle",
+  "sanskrit": "Tambula / Nagavalli",
+  "properties": "Pungent, bitter; heating; balances Kapha and Vata",
+  "uses": "Digestion, cough, bad breath, wounds",
+  "how": "Leaf chewed after meals; warmed leaf on the chest for cough and on boils",
+  "caution": "Chewing with tobacco or areca nut is linked to oral cancer."
+ },
+ "Bhrami": {
+  "botanical": "Bacopa monnieri",
+  "sanskrit": "Brahmi",
+  "properties": "Bitter, astringent; cooling; balances Pitta and Vata; a brain tonic (Medhya)",
+  "uses": "Memory, focus, anxiety, stress; epilepsy support (traditional)",
+  "how": "Leaf juice or powder; Brahmi ghrita; Brahmi vati",
+  "caution": "May cause stomach upset; caution with thyroid or sedative medicines."
+ },
+ "Bringaraja": {
+  "botanical": "Eclipta prostrata",
+  "sanskrit": "Bhringaraja",
+  "properties": "Bitter, pungent; heating; balances Kapha and Vata",
+  "uses": "Hair fall, premature greying, liver support, skin",
+  "how": "Leaf juice or Bhringaraja taila (oil) on the scalp; leaf juice with honey",
+  "caution": "Use the oil externally; rare allergies."
+ },
+ "Caricature": {
+  "botanical": "Graptophyllum pictum",
+  "sanskrit": "Not classical",
+  "properties": "Not described in classical texts",
+  "uses": "Folk use for constipation, hemorrhoids, wounds and ulcers",
+  "how": "Leaf juice or paste in folk practice",
+  "caution": "Very limited evidence; use under guidance."
+ },
+ "Castor": {
+  "botanical": "Ricinus communis",
+  "sanskrit": "Eranda",
+  "properties": "Sweet, pungent; heating; balances Vata and Kapha",
+  "uses": "Joint pain, arthritis, swelling, constipation (oil)",
+  "how": "Warm leaves tied on painful joints; castor oil as a purgative and in Eranda taila",
+  "caution": "Seeds are highly poisonous; castor oil is not for use in pregnancy."
+ },
+ "Catharanthus": {
+  "botanical": "Catharanthus roseus",
+  "sanskrit": "Sadabahar / Nayantara",
+  "properties": "Bitter",
+  "uses": "Source of vinca alkaloids used in cancer drugs; folk use for diabetes",
+  "how": "Leaf or flower decoction in folk medicine",
+  "caution": "Toxic if self-medicated; never replace diabetes or cancer treatment."
+ },
+ "Chakte": {
+  "botanical": "Not identified in the dataset",
+  "sanskrit": "-",
+  "properties": "-",
+  "uses": "Information is not shown because the dataset gives no botanical name for this label",
+  "how": "-",
+  "caution": "Identify the species with a botanist before any use."
+ },
+ "Chilly": {
+  "botanical": "Capsicum frutescens",
+  "sanskrit": "Not classical (Mirchi)",
+  "properties": "Pungent; strongly heating",
+  "uses": "Digestion, circulation, cold, pain relief (capsaicin)",
+  "how": "Used in food; capsaicin creams and rubs on joints and muscles",
+  "caution": "Irritates stomach and skin; avoid in ulcers and acidity."
+ },
+ "Citron lime (herelikai)": {
+  "botanical": "Citrus medica",
+  "sanskrit": "Matulunga / Bijapura",
+  "properties": "Sour, sweet; digestive; balances Vata and Kapha",
+  "uses": "Indigestion, nausea, loss of appetite, cough",
+  "how": "Fruit juice, rind and pickle; Matulunga preparations",
+  "caution": "Excess may cause acidity."
+ },
+ "Coffee": {
+  "botanical": "Coffea",
+  "sanskrit": "Not classical",
+  "properties": "Bitter; stimulant",
+  "uses": "Alertness, headache relief",
+  "how": "Mainly the seed (coffee) as a drink; leaves are made into tea in some regions",
+  "caution": "Caffeine: avoid in anxiety and heart rhythm problems; limit in pregnancy."
+ },
+ "Common rue(naagdalli)": {
+  "botanical": "Ruta graveolens",
+  "sanskrit": "Sadapha",
+  "properties": "Bitter, pungent; heating",
+  "uses": "Colic, menstrual complaints, muscle spasm, earache (traditional)",
+  "how": "Small amounts of leaf infusion; leaf in folk remedies for children's colic",
+  "caution": "Toxic in larger doses; avoid in pregnancy; sap can burn skin in sunlight."
+ },
+ "Coriender": {
+  "botanical": "Coriandrum sativum",
+  "sanskrit": "Dhanyaka",
+  "properties": "Sweet, bitter, pungent; cooling; balances all doshas",
+  "uses": "Digestion, burning sensation, urinary comfort, allergy",
+  "how": "Leaves in food; seeds as cold infusion (Dhanyaka hima) or decoction",
+  "caution": "Safe in food amounts."
+ },
+ "Curry": {
+  "botanical": "Murraya koenigii",
+  "sanskrit": "Girinimba / Kaidarya",
+  "properties": "Bitter, pungent; slightly heating",
+  "uses": "Digestion, nausea, hair health; folk use for blood sugar",
+  "how": "Leaves in tempering, chutney and buttermilk; leaf paste for hair",
+  "caution": "Safe in food amounts."
+ },
+ "Doddpathre": {
+  "botanical": "Coleus amboinicus (Plectranthus amboinicus)",
+  "sanskrit": "Parnayavani",
+  "properties": "Pungent; heating",
+  "uses": "Cough, cold, sore throat, indigestion, kidney stones (folk)",
+  "how": "Leaf juice with honey for children's cough; leaf fritters",
+  "caution": "Use moderate amounts."
+ },
+ "Drumstick": {
+  "botanical": "Moringa oleifera",
+  "sanskrit": "Shigru",
+  "properties": "Pungent, bitter; heating; balances Kapha and Vata",
+  "uses": "Nutrition (iron, vitamins), inflammation, joint pain, lactation support",
+  "how": "Leaves in curries and powder; pods in sambar; bark and root only under guidance",
+  "caution": "Root and bark are unsafe in pregnancy."
+ },
+ "Ekka": {
+  "botanical": "Calotropis gigantea",
+  "sanskrit": "Arka / Alarka",
+  "properties": "Pungent, bitter; heating",
+  "uses": "Skin diseases, joint pain, swelling, thorn removal",
+  "how": "Leaves warmed on joints; latex externally; internal use only after purification by an expert",
+  "caution": "The latex is toxic and harms eyes; never take it on your own."
+ },
+ "Eucalyptus": {
+  "botanical": "Eucalyptus globulus",
+  "sanskrit": "Tailaparna",
+  "properties": "Pungent, bitter; heating; balances Kapha",
+  "uses": "Cold, blocked nose, sinusitis, cough, muscle pain",
+  "how": "Leaf steam inhalation; eucalyptus oil in balms",
+  "caution": "The oil is toxic if swallowed; not for infants' faces."
+ },
+ "Ganike": {
+  "botanical": "Solanum nigrum (Black nightshade)",
+  "sanskrit": "Kakamachi",
+  "properties": "Bitter, pungent; reduces all three doshas (traditional)",
+  "uses": "Mouth and stomach ulcers, liver complaints, jaundice, fever",
+  "how": "Tender leaves cooked as greens (Ganike soppu / Manathakkali keerai); leaf juice",
+  "caution": "The raw plant and unripe berries are toxic; eat only the cooked leaves."
+ },
+ "Gasagase": {
+  "botanical": "Papaver somniferum (poppy)",
+  "sanskrit": "Khaskhas (seeds) / Ahiphena (latex)",
+  "properties": "Seeds: sweet; cooling",
+  "uses": "Seeds used as food, in cooling drinks and for sleep and cough",
+  "how": "Seeds (khus khus) in curries, sweets and Ayurvedic preparations",
+  "caution": "The latex (opium) is a controlled drug; growing the plant is restricted in India under the NDPS Act."
+ },
+ "Ginger": {
+  "botanical": "Zingiber officinale",
+  "sanskrit": "Ardraka (fresh) / Shunthi (dry)",
+  "properties": "Pungent; heating; balances Vata and Kapha",
+  "uses": "Indigestion, nausea, cough and cold, joint pain",
+  "how": "Fresh juice with honey; dry ginger in Trikatu and kashayams",
+  "caution": "May thin blood; avoid large amounts in pregnancy and with blood thinners."
+ },
+ "Globe Amarnath": {
+  "botanical": "Gomphrena globosa",
+  "sanskrit": "Not classical",
+  "properties": "Not described in classical texts",
+  "uses": "Folk use of flowers for cough, bronchitis and urinary complaints",
+  "how": "Flower tea or decoction in folk practice",
+  "caution": "Limited evidence; use under guidance."
+ },
+ "Guava": {
+  "botanical": "Psidium guajava",
+  "sanskrit": "Peruka / Amrud",
+  "properties": "Astringent, sweet",
+  "uses": "Diarrhea, mouth ulcers, gum health, toothache",
+  "how": "Tender leaves chewed or boiled as a gargle; leaf tea",
+  "caution": "Leaf extracts may lower blood sugar."
+ },
+ "Henna": {
+  "botanical": "Lawsonia inermis",
+  "sanskrit": "Mendika",
+  "properties": "Bitter, astringent; cooling",
+  "uses": "Hair conditioning, skin cooling, burns, wounds, headache",
+  "how": "Leaf paste on hair, palms, soles and burns; leaf decoction as a gargle",
+  "caution": "Patch test for allergy; avoid black henna dyes."
+ },
+ "Hibiscus": {
+  "botanical": "Hibiscus rosa-sinensis",
+  "sanskrit": "Japa",
+  "properties": "Sweet, astringent; cooling",
+  "uses": "Hair fall, scalp care, heavy menstrual bleeding (traditional)",
+  "how": "Flower and leaf paste or oil on the scalp; flower tea",
+  "caution": "Avoid in pregnancy."
+ },
+ "Honge": {
+  "botanical": "Millettia pinnata (Pongamia)",
+  "sanskrit": "Karanja",
+  "properties": "Bitter, pungent; heating",
+  "uses": "Skin diseases, wounds, itching, worms",
+  "how": "Seed oil (Karanja taila) externally; leaf paste or decoction for skin washes",
+  "caution": "Seed oil is for external use only."
+ },
+ "Insulin": {
+  "botanical": "Costus igneus",
+  "sanskrit": "Not classical (Insulin plant)",
+  "properties": "Bitter-sweet",
+  "uses": "Eaten traditionally for blood sugar control",
+  "how": "One or two fresh leaves chewed daily in folk practice",
+  "caution": "Can add to diabetes medicines; never stop prescribed treatment."
+ },
+ "Jackfruit": {
+  "botanical": "Artocarpus heterophyllus",
+  "sanskrit": "Panasa",
+  "properties": "Sweet, astringent; heavy; cooling",
+  "uses": "Mouth ulcers and diarrhea (leaves, traditional); fruit as food",
+  "how": "Leaf decoction as a gargle; fruit and seeds cooked",
+  "caution": "Heavy to digest; limit in diabetes."
+ },
+ "Jasmine": {
+  "botanical": "Jasminum",
+  "sanskrit": "Jati / Mallika",
+  "properties": "Bitter, sweet; cooling",
+  "uses": "Mouth ulcers, skin problems, wounds, headache",
+  "how": "Leaves chewed or boiled for mouth ulcers; Jatyadi taila for wounds; flower oil",
+  "caution": "Traditional use."
+ },
+ "Kambajala": {
+  "botanical": "Clitoria ternatea (Butterfly pea) - likely match",
+  "sanskrit": "Aparajita",
+  "properties": "Bitter, astringent; cooling",
+  "uses": "Memory, stress, cough, throat infections",
+  "how": "Flower tea; root and leaf decoction in folk and Ayurvedic use",
+  "caution": "Avoid in pregnancy."
+ },
+ "Kasambruga": {
+  "botanical": "Not identified in the dataset",
+  "sanskrit": "-",
+  "properties": "-",
+  "uses": "Information is not shown because the dataset gives no botanical name for this label",
+  "how": "-",
+  "caution": "Identify the species with a botanist before any use."
+ },
+ "Kohlrabi": {
+  "botanical": "Brassica oleracea var. gongylodes",
+  "sanskrit": "Not classical",
+  "properties": "Mild, slightly pungent",
+  "uses": "Mainly a food: vitamin C, fibre, digestion",
+  "how": "Stem eaten raw or cooked",
+  "caution": "Large amounts can affect the thyroid in sensitive people."
+ },
+ "Lantana": {
+  "botanical": "Lantana camara",
+  "sanskrit": "Not classical",
+  "properties": "Not described in classical texts",
+  "uses": "Folk use for cuts, itching, rheumatism, fever",
+  "how": "Leaf paste or steam applied externally",
+  "caution": "Leaves and unripe berries are toxic if eaten; external use only."
+ },
+ "Lemon": {
+  "botanical": "Citrus limon",
+  "sanskrit": "Nimbu / Jambira",
+  "properties": "Sour; heating; balances Vata and Kapha",
+  "uses": "Digestion, nausea, cold, scurvy, throat comfort",
+  "how": "Juice in warm water with honey; rind in pickles",
+  "caution": "Excess harms tooth enamel and may cause acidity."
+ },
+ "Lemongrass": {
+  "botanical": "Cymbopogon citratus",
+  "sanskrit": "Bhustrina",
+  "properties": "Pungent, bitter; light",
+  "uses": "Digestion, fever, cold, relaxing tea",
+  "how": "Leaf tea, steam inhalation, oil",
+  "caution": "Avoid large amounts in pregnancy."
+ },
+ "Malabar_Nut": {
+  "botanical": "Justicia adhatoda",
+  "sanskrit": "Vasa / Vasaka",
+  "properties": "Bitter, astringent; cooling; balances Kapha and Pitta",
+  "uses": "Cough, asthma, bronchitis, breathlessness",
+  "how": "Leaf juice with honey; Vasarishta and Vasavaleha",
+  "caution": "Avoid in pregnancy."
+ },
+ "Malabar_Spinach": {
+  "botanical": "Basella alba",
+  "sanskrit": "Upodika",
+  "properties": "Sweet; cooling",
+  "uses": "Constipation, digestion, anemia, burns (traditional)",
+  "how": "Leaves cooked as greens; leaf juice",
+  "caution": "Rich in oxalates: caution with kidney stones."
+ },
+ "Mango": {
+  "botanical": "Mangifera indica",
+  "sanskrit": "Amra",
+  "properties": "Astringent, sweet",
+  "uses": "Diarrhea, mouth and throat problems, dental care",
+  "how": "Tender leaves chewed to clean teeth; leaf decoction as a gargle; bark decoction",
+  "caution": "Traditional use."
+ },
+ "Marigold": {
+  "botanical": "Tagetes erecta",
+  "sanskrit": "Genda / Sthulapushpa",
+  "properties": "Bitter, pungent",
+  "uses": "Wounds, skin infections, earache, eye care (traditional)",
+  "how": "Flower or leaf paste on wounds; flower juice as ear drops in folk use",
+  "caution": "Allergy risk in people sensitive to daisy-family plants."
+ },
+ "Mint": {
+  "botanical": "Mentha",
+  "sanskrit": "Pudina",
+  "properties": "Pungent; cooling",
+  "uses": "Indigestion, nausea, headache, bad breath",
+  "how": "Leaf chutney, tea and digestive drinks",
+  "caution": "Excess may worsen acid reflux."
+ },
+ "Neem": {
+  "botanical": "Azadirachta indica",
+  "sanskrit": "Nimba",
+  "properties": "Bitter, astringent; cooling; balances Pitta and Kapha",
+  "uses": "Skin disorders, acne, blood purification, dental care, worms",
+  "how": "Leaf paste and baths; twigs as toothbrush (datun); neem oil",
+  "caution": "Avoid in pregnancy and in infants."
+ },
+ "Nelavembu": {
+  "botanical": "Andrographis paniculata",
+  "sanskrit": "Kalmegh / Bhunimba",
+  "properties": "Very bitter; cooling",
+  "uses": "Fever, liver support, infections, immunity",
+  "how": "Whole-plant decoction; Nilavembu kashayam in Siddha medicine, widely used in fevers",
+  "caution": "Avoid in pregnancy; may lower blood pressure."
+ },
+ "Nerale": {
+  "botanical": "Syzygium cumini (Jamun)",
+  "sanskrit": "Jambu",
+  "properties": "Sweet, sour, astringent; cooling",
+  "uses": "Diabetes support, diarrhea, mouth ulcers",
+  "how": "Seed powder; fruit; leaf and bark decoction as a gargle or wash",
+  "caution": "May lower blood sugar."
+ },
+ "Nooni": {
+  "botanical": "Morinda citrifolia (Noni)",
+  "sanskrit": "Not classical (related to Aal)",
+  "properties": "Bitter, sour",
+  "uses": "Joint pain, immunity, skin complaints (traditional)",
+  "how": "Fruit juice; leaf poultice on joints",
+  "caution": "Caution in kidney or liver disease; high in potassium."
+ },
+ "Onion": {
+  "botanical": "Allium cepa",
+  "sanskrit": "Palandu",
+  "properties": "Pungent, sweet; heating",
+  "uses": "Cold, digestion, insect bites, heart health (traditional)",
+  "how": "Juice with honey for cough; raw or cooked in food",
+  "caution": "May aggravate acidity."
+ },
+ "Padri": {
+  "botanical": "Radermachera xylocarpa",
+  "sanskrit": "Related to the Patala group",
+  "properties": "Limited information",
+  "uses": "Limited reliable information; traditional use of bark and root for fever and inflammation",
+  "how": "Not commonly prepared at home",
+  "caution": "Consult a qualified practitioner."
+ },
+ "Palak(Spinach)": {
+  "botanical": "Spinacia oleracea",
+  "sanskrit": "Palankya",
+  "properties": "Sweet; cooling",
+  "uses": "Anemia support (iron), constipation, nutrition",
+  "how": "Leaves cooked as greens and soups",
+  "caution": "Rich in oxalates; caution with kidney stones and blood thinners."
+ },
+ "Papaya": {
+  "botanical": "Carica papaya",
+  "sanskrit": "Erandakarkati",
+  "properties": "Sweet",
+  "uses": "Digestion, skin, wounds; leaf juice used in folk medicine for fever",
+  "how": "Ripe fruit; raw papain on wounds; leaf juice only under medical advice",
+  "caution": "Avoid unripe fruit and latex in pregnancy."
+ },
+ "Parijatha": {
+  "botanical": "Nyctanthes arbor-tristis",
+  "sanskrit": "Parijata / Shephalika",
+  "properties": "Bitter, pungent; heating",
+  "uses": "Fever, sciatica, joint pain, worms",
+  "how": "Leaf juice or decoction; leaf juice with honey for fever",
+  "caution": "Avoid in pregnancy."
+ },
+ "Pea": {
+  "botanical": "Pisum sativum",
+  "sanskrit": "Satina",
+  "properties": "Sweet",
+  "uses": "Nutrition (protein, fibre), digestion",
+  "how": "Cooked pods and seeds",
+  "caution": "May cause gas."
+ },
+ "Pepper": {
+  "botanical": "Piper nigrum",
+  "sanskrit": "Maricha",
+  "properties": "Pungent; heating; balances Kapha and Vata",
+  "uses": "Cough, cold, indigestion, sore throat",
+  "how": "In Trikatu; kashayam with tulsi and ginger; with honey",
+  "caution": "Avoid excess in acidity and pregnancy."
+ },
+ "Pomoegranate": {
+  "botanical": "Punica granatum",
+  "sanskrit": "Dadima",
+  "properties": "Sweet, sour, astringent",
+  "uses": "Diarrhea, anemia, digestion, heart health",
+  "how": "Fruit juice; rind decoction for dysentery; leaf decoction",
+  "caution": "May interact with some blood pressure medicines."
+ },
+ "Pumpkin": {
+  "botanical": "Cucurbita moschata",
+  "sanskrit": "Kushmanda",
+  "properties": "Sweet; cooling",
+  "uses": "Nutrition, digestion, urinary comfort",
+  "how": "Leaves and fruit cooked; Kushmanda preparations; seeds for worms in folk use",
+  "caution": "Safe in food amounts."
+ },
+ "Raddish": {
+  "botanical": "Raphanus sativus",
+  "sanskrit": "Mulaka",
+  "properties": "Pungent; heating",
+  "uses": "Digestion, cough, piles, urinary stones (traditional)",
+  "how": "Fresh root juice; cooked root",
+  "caution": "Large amounts upset the stomach."
+ },
+ "Rose": {
+  "botanical": "Rosa",
+  "sanskrit": "Shatapatri",
+  "properties": "Sweet, bitter; cooling",
+  "uses": "Cooling, digestion, acidity, skin care",
+  "how": "Gulkand (rose petal jam); rose water",
+  "caution": "Safe in food amounts."
+ },
+ "Sampige": {
+  "botanical": "Magnolia champaca",
+  "sanskrit": "Champaka",
+  "properties": "Bitter, pungent, astringent",
+  "uses": "Fever, headache, joint pain",
+  "how": "Flower oil; bark decoction",
+  "caution": "Traditional use."
+ },
+ "Sapota": {
+  "botanical": "Manilkara zapota",
+  "sanskrit": "Not classical (Chikoo)",
+  "properties": "Sweet",
+  "uses": "Energy, digestion; bark and leaf in folk use for fever and diarrhea",
+  "how": "Ripe fruit; bark decoction in folk use",
+  "caution": "Do not eat the seeds; may raise blood sugar."
+ },
+ "Seethaashoka": {
+  "botanical": "Not identified in the dataset",
+  "sanskrit": "-",
+  "properties": "-",
+  "uses": "Information is not shown because the dataset gives no botanical name for this label",
+  "how": "-",
+  "caution": "Identify the species with a botanist before any use."
+ },
+ "Seethapala": {
+  "botanical": "Annona reticulata",
+  "sanskrit": "Ramaphala",
+  "properties": "Sweet",
+  "uses": "Fruit as food; leaf paste on boils and for lice in folk use",
+  "how": "Ripe fruit; leaf paste externally",
+  "caution": "Seeds and leaves are toxic if eaten; avoid contact with eyes."
+ },
+ "Tamarind": {
+  "botanical": "Tamarindus indica",
+  "sanskrit": "Amlika / Chincha",
+  "properties": "Sour; heating",
+  "uses": "Digestion, mild laxative, fever, joint swelling",
+  "how": "Pulp in rasam; leaf poultice on swelling",
+  "caution": "Excess causes acidity."
+ },
+ "Taro": {
+  "botanical": "Colocasia esculenta",
+  "sanskrit": "Alu / Kachu",
+  "properties": "Sweet",
+  "uses": "Nutrition and digestion; leaves used in food",
+  "how": "Leaves and roots cooked (patra)",
+  "caution": "Never eat raw; it causes itching and throat irritation."
+ },
+ "Tecoma": {
+  "botanical": "Tecoma stans",
+  "sanskrit": "Not classical",
+  "properties": "Bitter",
+  "uses": "Folk use for blood sugar and digestive complaints",
+  "how": "Leaf decoction in folk practice",
+  "caution": "Limited evidence; may lower blood sugar."
+ },
+ "Thumbe": {
+  "botanical": "Leucas aspera",
+  "sanskrit": "Dronapushpi",
+  "properties": "Pungent; light",
+  "uses": "Cold, cough, headache, fever, skin complaints",
+  "how": "Leaf juice drops in the nose for headache and sinus in folk use; leaves in chutney",
+  "caution": "Use moderate amounts."
+ },
+ "Tomato": {
+  "botanical": "Solanum lycopersicum",
+  "sanskrit": "Not classical",
+  "properties": "Sweet, sour",
+  "uses": "Nutrition (vitamin C, lycopene), digestion",
+  "how": "Fruit eaten raw or cooked; juice",
+  "caution": "May worsen acidity."
+ },
+ "Tulsi": {
+  "botanical": "Ocimum tenuiflorum",
+  "sanskrit": "Tulasi",
+  "properties": "Pungent, bitter; heating; balances Kapha and Vata",
+  "uses": "Cough, cold, fever, asthma support, stress",
+  "how": "Leaf juice with honey; kashayam with ginger and pepper; chewed leaves",
+  "caution": "May lower blood sugar; avoid high doses in pregnancy."
+ },
+ "Turmeric": {
+  "botanical": "Curcuma longa",
+  "sanskrit": "Haridra",
+  "properties": "Bitter, pungent; heating; balances Kapha and Pitta",
+  "uses": "Wound healing, inflammation, skin conditions, liver support",
+  "how": "Rhizome powder with warm milk; paste on wounds; leaves in steamed dishes",
+  "caution": "High doses affect gallstones and blood thinners."
+ },
+ "ashoka": {
+  "botanical": "Saraca asoca",
+  "sanskrit": "Ashoka",
+  "properties": "Astringent, bitter; cooling",
+  "uses": "Heavy menstrual bleeding, uterine disorders, pain",
+  "how": "Bark decoction; Ashokarishta",
+  "caution": "Use under guidance; beware of look-alike false ashoka sold as the herb."
+ },
+ "camphor": {
+  "botanical": "Cinnamomum camphora",
+  "sanskrit": "Karpura",
+  "properties": "Pungent, bitter; cooling",
+  "uses": "Cold, cough, muscle pain, itching",
+  "how": "Camphor in balms and steam inhalation",
+  "caution": "Toxic if swallowed; keep away from children."
+ },
+ "kamakasturi": {
+  "botanical": "Ocimum basilicum",
+  "sanskrit": "Sabja / Barbari",
+  "properties": "Pungent; heating",
+  "uses": "Digestion, cough, cold; seeds (sabja) are cooling",
+  "how": "Leaf tea; soaked seeds in cooling drinks",
+  "caution": "Avoid large amounts in pregnancy."
+ },
+ "kepala": {
+  "botanical": "Ixora coccinea (Flameleaf) - likely match",
+  "sanskrit": "Rugmini",
+  "properties": "Astringent, bitter",
+  "uses": "Diarrhea, wounds, skin sores (folk)",
+  "how": "Flower or leaf decoction in folk practice",
+  "caution": "Limited evidence; use under guidance."
+ },
+ "Ganigale": {
+  "botanical": "Calotropis gigantea (the dataset lists the same species as Ekka)",
+  "sanskrit": "Arka / Alarka",
+  "properties": "Pungent, bitter; heating",
+  "uses": "Skin diseases, joint pain, swelling, thorn removal",
+  "how": "Leaves warmed on joints; latex externally; internal use only after purification by an expert",
+  "caution": "The latex is toxic and harms eyes; never take it on your own."
+ },
+ "Spinach1": {
+  "botanical": "Spinacia oleracea",
+  "sanskrit": "Palankya",
+  "properties": "Sweet; cooling",
+  "uses": "Anemia support (iron), constipation, nutrition",
+  "how": "Leaves cooked as greens and soups",
+  "caution": "Rich in oxalates; caution with kidney stones and blood thinners."
+ }
+}

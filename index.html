@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ayurvedic Leaf Identifier</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,Segoe UI,Roboto,sans-serif;background:#f1f7f2;color:#1f3a2a;min-height:100vh}
+header{background:linear-gradient(135deg,#1b6b3a,#4caf50);color:#fff;text-align:center;padding:28px 16px 40px;border-radius:0 0 28px 28px}
+header .icon{font-size:42px}
+header h1{font-size:24px;margin-top:6px}
+header p{font-size:14px;opacity:.9;margin-top:6px}
+main{max-width:480px;margin:-24px auto 0;padding:0 16px 32px}
+.card{background:#fff;border-radius:18px;padding:18px;box-shadow:0 4px 16px rgba(0,0,0,.08);margin-bottom:16px}
+.preview{width:100%;height:240px;border:2px dashed #a5d6a7;border-radius:14px;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#f6fbf6;color:#6b8f75;text-align:center;font-size:14px}
+.preview img{width:100%;height:100%;object-fit:cover;display:none}
+.btns{display:flex;gap:10px;margin-top:14px}
+.btn{flex:1;padding:13px 8px;border:none;border-radius:12px;font-size:15px;font-weight:600;cursor:pointer;text-align:center;display:block}
+.btn.primary{background:#2e7d32;color:#fff}
+.btn.second{background:#e8f5e9;color:#2e7d32}
+input[type=file]{display:none}
+.loader{display:none;text-align:center;padding:10px}
+.spin{width:34px;height:34px;border:4px solid #c8e6c9;border-top-color:#2e7d32;border-radius:50%;animation:s 1s linear infinite;margin:0 auto 8px}
+@keyframes s{to{transform:rotate(360deg)}}
+.result{display:none}
+.label{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#6b8f75}
+.plant{font-size:24px;font-weight:700;color:#1b5e20;margin:4px 0 10px}
+.bar{height:10px;background:#e0efe2;border-radius:6px;overflow:hidden}
+.fill{height:100%;background:linear-gradient(90deg,#66bb6a,#2e7d32);border-radius:6px;width:0;transition:width .6s}
+.conf{font-size:14px;margin:6px 0 14px;color:#456b52}
+.row{margin-top:10px;font-size:14px}
+.row .top{display:flex;justify-content:space-between;margin-bottom:4px}
+.irow{font-size:14px;line-height:1.5;margin:8px 0;padding:10px;background:#f6fbf6;border-radius:10px}
+.irow b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:#2e7d32;margin-bottom:2px}
+.irow.warn{background:#fff8e1}
+.irow.warn b{color:#b26a00}
+.error{display:none;background:#fff4f2;border:1px solid #f5b7ad;color:#b3261e}
+.error h3{font-size:16px;margin-bottom:6px}
+.note{text-align:center;font-size:12px;color:#7d9a86;margin-top:6px;line-height:1.5}
+</style></head>
+<body>
+<header>
+<div class="icon">&#127807;</div>
+<h1>Ayurvedic Leaf Identifier</h1>
+<p>Identify Indian medicinal plants from a leaf photo</p>
+</header>
+<main>
+<div class="card">
+<div class="preview" id="box">
+<span id="hint">Take or choose a clear photo<br>of a single leaf</span>
+<img id="img" alt="Leaf preview">
+</div>
+<div class="btns">
+<label class="btn primary" for="cam">&#128247; Camera</label>
+<label class="btn second" for="gal">&#128193; Gallery</label>
+</div>
+<input type="file" id="cam" accept="image/*" capture="environment">
+<input type="file" id="gal" accept="image/*">
+</div>
+<div class="card loader" id="loader"><div class="spin"></div><div>Identifying the plant...</div></div>
+<div class="card result" id="result">
+<div class="label">Identified plant</div>
+<div class="plant" id="plant"></div>
+<div class="bar"><div class="fill" id="fill"></div></div>
+<div class="conf" id="conf"></div>
+<div class="label" style="margin-top:14px">About this plant</div>
+<div id="info"></div>
+<div class="label" style="margin-top:14px">Other possibilities</div>
+<div id="others"></div>
+</div>
+<div class="card error" id="error"><h3>&#9888; Unknown image</h3><div id="errmsg"></div></div>
+<div class="note">For learning and identification only.<br>This is not medical advice. Consult a qualified practitioner before using any herb.</div>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+function show(w){['loader','result','error'].forEach(k => $(k).style.display = (k===w?'block':'none'));}
+async function handle(file){
+  if(!file) return;
+  $('img').src = URL.createObjectURL(file);
+  $('img').style.display = 'block';
+  $('hint').style.display = 'none';
+  show('loader');
+  const fd = new FormData();
+  fd.append('image', file);
+  try{
+    const r = await fetch('/predict', {method:'POST', body:fd});
+    const d = await r.json();
+    if(d.error){ $('errmsg').textContent = d.error; show('error'); return; }
+    $('plant').textContent = d.plant;
+    $('conf').textContent = 'Confidence: ' + (d.confidence*100).toFixed(1) + '%' + (d.note ? '  |  ' + d.note : '');
+    show('result');
+    $('fill').style.width = '0';
+    setTimeout(() => { $('fill').style.width = (d.confidence*100) + '%'; }, 50);
+    const inf = d.info;
+    $('info').innerHTML = inf ? (
+      '<div class="irow"><b>Botanical name</b>' + inf.botanical + '</div>' +
+      '<div class="irow"><b>Ayurvedic (Sanskrit) name</b>' + inf.sanskrit + '</div>' +
+      '<div class="irow"><b>Ayurvedic properties</b>' + inf.properties + '</div>' +
+      '<div class="irow"><b>Medicinal uses</b>' + inf.uses + '</div>' +
+      '<div class="irow"><b>How it is used in India</b>' + inf.how + '</div>' +
+      '<div class="irow warn"><b>Caution</b>' + inf.caution + '</div>'
+    ) : '<div class="irow">Detailed Ayurvedic information is not added for this plant yet.</div>';
+    $('others').innerHTML = d.top3.slice(1).map(t =>
+      '<div class="row"><div class="top"><span>' + t.plant + '</span><span>' +
+      (t.confidence*100).toFixed(1) + '%</span></div><div class="bar"><div class="fill" style="width:' +
+      (t.confidence*100) + '%"></div></div></div>').join('');
+  }catch(e){
+    $('errmsg').textContent = 'Cannot reach the server. Check that Colab is still running.';
+    show('error');
+  }
+}
+$('cam').onchange = e => handle(e.target.files[0]);
+$('gal').onchange = e => handle(e.target.files[0]);
+</script></body></html>
